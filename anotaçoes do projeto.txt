@@ -1,0 +1,8 @@
+O que essa porra de sistema precisa?
+sistema de login;
+sistema de segurança;
+tela pro cliente;
+tela do tecnico;
+um banco pra administrar essa porra;
+verificação de login;
+tela index inicial pra vc selecionar sua area;
