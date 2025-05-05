@@ -1,0 +1,25 @@
+
+body {
+    background-color: #eff2f7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+}
+h1 {
+    color: #004085;
+}
+.form-container {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 0.1);
+    max-width: 600px;
+    margin: auto;
+}
+@media (max-width: 600px) {
+    .form-container {
+        padding: 15px;
+    }
+    button {
+        width: 100%;
+    }
+}

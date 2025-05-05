@@ -1,0 +1,24 @@
+
+body {
+    background-color: #f7f9fc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+}
+h1, h2 {
+    color: #004085;
+}
+table {
+    background-color: white;
+}
+.btn {
+    margin-right: 5px;
+}
+@media (max-width: 600px) {
+    .table-responsive {
+        font-size: 14px;
+    }
+    .btn {
+        padding: 5px 8px;
+        font-size: 12px;
+    }
+}
