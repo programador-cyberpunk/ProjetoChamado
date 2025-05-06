@@ -21,7 +21,8 @@
         <th>Pedido</th>
      </tr>    
 
-<div?php
+<div>
+<?php
 require_once "../control/conexao.php";
 require_once "../control/login.php";
 require_once "index.php";

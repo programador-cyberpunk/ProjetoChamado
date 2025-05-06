@@ -2,8 +2,12 @@
 ///botei numa classe dados de login do usuario pra poder organizar melhor os pedidos e requisições
  class Dados{
   private $nome;
+
   private $senha;
+  
   private $email;
+
+  private $ordem;
   
   private $setor;
    public function setNome($nm){
@@ -18,7 +22,13 @@
     $this->email = $em;
    }
 
-   
+   public function setOrdem($o){
+      $this->ordem = $o;
+   }
+
+   public function setSetor($set){
+      $this->setor = $set;
+   }
  }
 
 
