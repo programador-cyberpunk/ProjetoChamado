@@ -1,0 +1,98 @@
+body{
+        font-family: "Coral Pixels", serif;
+
+        background-image: url('https://img.myloview.com.br/quadros/cyberpunk-glitch-background-digital-signal-distortion-texture-blue-with-pink-glowing-center-futuristic-wallpaper-sci-fi-technology-concept-cyber-screen-damage-effect-retro-vector-wallpaper-700-204548798.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 10px; 
+        padding: 10px;
+
+}
+
+.container{
+ max-width: 800px;
+ margin: 20px auto;
+ padding: 20px;
+ background-image: url('https://img.myloview.com.br/adesivos/retro-cyberpunk-style-80s-sci-fi-background-futuristic-with-laser-grid-landscape-digital-cyber-surface-style-of-the-1980s-3d-illustration-for-banner-700-259373455.jpg');
+ background-size: contain;
+ background-repeat: no-repeat;
+ background-position: center;
+ border-radius: 8px;
+ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar{
+margin-bottom: 20px;
+text-align: center;
+}
+
+.search-bar-input{
+    width: 100px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #461ed6;
+    border-radius: 4px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.header-item{
+    background-image: url('https://static.vecteezy.com/system/resources/previews/044/584/277/non_2x/cyberpunk-digital-technology-abstract-empty-background-free-vector.jpg');
+    padding: 10px;
+    margin: 0 5px;
+    font-weight: bold;
+    border-radius: 4px;
+    text-align: center;
+    flex: 1;
+
+}
+
+.h1{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.content{
+    margin: 20px 0;
+}
+
+.row{
+    display: flex;
+    margin-bottom: 10px 0;
+    justify-content: space-between;
+}
+
+.item{
+    background-color: #461ed6;
+    padding: 10px;
+    color: green;
+    border-radius: 4px;
+    text-align: center;
+    flex: 1;
+    margin: 0 5px;
+}
+
+.buttons{
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+}
+
+.buttons button{
+    background-color: #6741ee;
+    color: blue;
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;   
+}
+
+.buttons button:hover{
+    background-color: aquamarine;
+}

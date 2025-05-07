@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ordens de Serviço</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Ordens de Serviço</h1>
+            <div class="search-bar">
+                <input type="text" placeholder="Digite aqui seu código de chamado" />
+                <button>Buscar</button>
+            </div>
+        </header>
+        <main>
+            <div class="header-row">
+                <div class="header-item">ID</div>
+                <div class="header-item">Cliente</div>
+                <div class="header-item">Descrição</div>
+                <div class="header-item">Status</div>
+            </div>
+            <section class="orders">
+                <div class="order-row">
+                    <div class="order-item">001</div>
+                    <div class="order-item">João Silva</div>
+                    <div class="order-item">Troca de peça</div>
+                    <div class="order-item">Concluído</div>
+                </div>
+                <div class="order-row">
+                    <div class="order-item">002</div>
+                    <div class="order-item">Maria Oliveira</div>
+                    <div class="order-item">Reparar sistema</div>
+                    <div class="order-item">Em andamento</div>
+                </div>
+            </section>
+            <div class="buttons">
+                <button>Inserir</button>
+                <button>Alterar</button>
+                <button>Excluir</button>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
